@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $PATH | ls -d */ | tr "/" "\t" | wc -l
+echo $PATH | tr ":" "\n" | wc -l
